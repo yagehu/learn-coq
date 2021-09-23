@@ -210,6 +210,10 @@ Example trans_eq_exercise : forall (n m o p : nat),
      (n + p) = (minustwo o).
 Proof.
   intros n m o p H1 H2.
+  transitivity m.
+  apply H2.
+  apply H1.
+Qed.
 (** [] *)
 
 (* ################################################################# *)
