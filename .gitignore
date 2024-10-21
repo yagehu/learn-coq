@@ -1,0 +1,8 @@
+# Emacs
+*~
+
+.*.aux
+*.glob
+*.vo
+*.vok
+*.vos
